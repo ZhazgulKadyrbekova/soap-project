@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+                  xmlns:gs="http://www.baeldung.com/springsoap/gen">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <gs:GetStudentDetailsRequest>
+            <gs:id>1</gs:id>
+        </gs:GetStudentDetailsRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
